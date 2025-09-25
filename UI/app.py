@@ -16,7 +16,7 @@ def build_resnet18(dropout=0.3):
 
 # @st.cache_resource, modeli her seferinde yeniden yüklemek yerine hafızada tutar, bu da uygulamayı hızlandırır.
 @st.cache_resource
-def load_model(model_path="best_pneumonia_model.pth"):
+def load_model(model_path="UI/best_pneumonia_model.pth"):
     """Modeli oluşturur ve kayıtlı ağırlıkları yükler."""
     model = build_resnet18()
     # Ağırlıkları yüklüyoruz. 'map_location' ile CPU'da da çalışmasını garantileriz.
