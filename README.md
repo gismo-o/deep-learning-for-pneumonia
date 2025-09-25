@@ -1,7 +1,7 @@
 # DERİN ÖĞRENME İLE ZATÜRRE TEŞHİSİ
 ## Giriş
 
-Pnömoni, pediatrik hastalarda erken ve doğru teşhis gerektiren kritik bir solunum yolu enfeksiyonu olup, bu çalışma **göğüs röntgeni görüntülerinin derin öğrenme yöntemleriyle sınıflandırılmasına** odaklanmaktadır. Çalışmada kullanılan veri seti, *pediatric-pneumonia-detection*, farklı sınıflara (**NORMAL** ve **PNEUMONIA**) ait göğüs röntgeni görüntülerinden oluşmaktadır. 
+Pnömoni, pediatrik hastalarda erken ve doğru teşhis gerektiren kritik bir solunum yolu enfeksiyonu olup, bu çalışma **göğüs röntgeni görüntülerinin derin öğrenme yöntemleriyle sınıflandırılmasına** odaklanmaktadır. Çalışmada kullanılan veri seti, [**pediatric-pneumonia-detection**](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray), farklı sınıflara (**NORMAL** ve **PNEUMONIA**) ait göğüs röntgeni görüntülerinden oluşmaktadır. 
 
 Çalışmanın temel amacı, derin öğrenme yöntemleri kullanılarak pediatrik pnömoni teşhisini otomatikleştiren bir model geliştirmek ve bu modeli kullanıcı dostu bir **Streamlit** arayüzü üzerinden erişilebilir hale getirmektir.
 
